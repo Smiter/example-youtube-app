@@ -1,0 +1,85 @@
+@import '../../containers/App/vars';
+
+.main {
+    margin: 0 8px 16px;
+    background-color: #fff;
+    text-align: left;
+    overflow: hidden;
+    border-radius: 6px;
+    background-clip: padding-box;
+    box-shadow: 0 0 13px rgba(0,0,0,.1);
+	background: #fff;
+}
+
+
+.imgWrap {
+	background: $greyColor;
+	position: relative;
+	float:left;
+	min-height: 135px;
+	min-width: 238px;
+	img {
+		display: block;
+		width: 238px;
+	}
+	:hover {
+		i {
+			opacity: 1;
+		}
+	}
+}
+
+.content {
+	padding: 10px;
+    overflow: hidden;
+}
+
+.playIcon {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	text-align: center;
+	transform: translateY(-50%);
+	font-size: 40px;
+	i {
+		color: white;
+		transition: all 0.4s;
+		opacity: 0;
+	}
+}
+
+.title {
+	margin: 0;
+	a {
+		font-weight: bold;
+		color: $blueColor;
+	}
+}
+
+.subtitle {
+	font-size: 0.852rem;
+}
+
+.description {
+	max-height: 3em;
+	overflow: hidden;
+	position: relative;
+	text-overflow: ellipsis;
+	white-space: normal;
+	word-wrap: break-word;
+}
+
+@media only screen and (max-width: 540px) {
+  .imgWrap {
+  	float: none;
+  }
+
+  .imgWrap img{
+  	width: 100%;
+  }
+
+  .main {
+  	margin: 0 0 20px 0;
+  }
+}

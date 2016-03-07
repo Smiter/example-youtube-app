@@ -1,0 +1,89 @@
+@import '../../containers/App/vars';
+
+.main {
+	width: 238px;
+    margin: 0 8px 16px;
+    background-color: #fff;
+    display: inline-block;
+    text-align: left;
+    height: 320px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0 0 13px rgba(0,0,0,.1);
+    vertical-align: top;
+}
+
+@media only screen and (max-width: 540px) {
+  .main {
+  	width: 100%;
+  	display: block;
+  	height: auto;
+  	margin: 0 0 20px 0;
+  }
+}
+
+.imgWrap {
+	background: $greyColor;
+	position: relative;
+	min-height: 135px;
+	img {
+		display: block;
+		width: 100%;
+	}
+	&:hover {
+		i {
+			opacity: 1;
+		}
+	}
+}
+
+.content {
+	padding: 10px;
+    background-color: white;
+    min-height: 6.5em;
+    border-bottom: 1px solid $greyColor;
+}
+
+.playIcon {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	text-align: center;
+	transform: translateY(-50%);
+	font-size: 40px;
+	i {
+		color: white;
+		transition: all 0.4s;
+		opacity: 0;
+	}
+}
+
+.title {
+	margin: 0;
+	a {
+		max-height: 2.6em;
+		display: block;
+		overflow: hidden;
+		position: relative;
+		text-overflow: ellipsis;
+		white-space: normal;
+		word-wrap: break-word;
+		font-weight: bold;
+		color: $blueColor;
+	}
+}
+
+.subtitle {
+	font-size: 0.852rem;
+}
+
+.description {
+	max-height: 5.6em;
+	padding: 10px;
+	overflow: hidden;
+	position: relative;
+	text-overflow: ellipsis;
+	white-space: normal;
+	word-wrap: break-word;
+}

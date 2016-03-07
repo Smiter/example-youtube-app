@@ -1,0 +1,17 @@
+:global(.clearfix:after) {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+:global(.hidden) {
+	display: none;
+}
+
+:global(.left) {
+  float: left;
+}
+
+:global(.right) {
+  float: right;
+}

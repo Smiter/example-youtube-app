@@ -1,0 +1,13 @@
+.btn {
+	display: inline-block;
+	cursor: pointer;
+	opacity: 0.4;
+	margin-right: 5px;
+	i {
+		font-size: 20px;
+	}
+}
+
+.btnSelected {
+	opacity: 1;
+}

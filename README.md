@@ -2,8 +2,6 @@
 
 This isomorphic and modular web app was built by utilizing react, redux, youtube search API, local scoped css approach. I wrote js code by following Airbnb style guide.
 
-It has following features:
-
 ## Design decisions
 
 1) implemented 2 types of listing: grid and standard
@@ -33,7 +31,6 @@ $ npm run build (build)
 $ npm run test (test)
 
 ```
-
 
 
 
