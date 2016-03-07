@@ -25,6 +25,7 @@ class App extends Component {
     window.addEventListener('scroll', this.handleScroll.bind(this));
   }
 
+  // handler when we select new artist from the dropdown
   onSelectArtist(artist) {
     const { videoActions: { loadVideos } } = this.props;
     loadVideos(artist);
