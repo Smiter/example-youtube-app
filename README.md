@@ -13,7 +13,7 @@ This isomorphic and modular web app was built by utilizing react, redux, youtube
 ## Notes
 
 For a simplicity, I omit routes and it fits this particular case, but it won't allow scaling an app if we want more pages.
-I made it as less dependable from other modules as possible.
+I made it as less dependent on other modules as possible.
 
 ## Setup
 
