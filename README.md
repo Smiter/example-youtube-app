@@ -4,11 +4,10 @@ This isomorphic and modular web app was built by utilizing react, redux, youtube
 
 ## Design decisions
 
-1) implemented 2 types of listing: grid and standard
-2) added lazy loading for images so page loads faster
-3) added loading overlay when select new artist for a better user experience
-4) made layout responsive
-5) 
+1. implemented 2 types of listing: grid and standard
+2. added lazy loading for images so page loads faster
+3. added loading overlay when select new artist for a better user experience
+4. made layout responsive 
 
 ## Notes/limitations
 
