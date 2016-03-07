@@ -25,7 +25,7 @@ $ npm install
 ## Running
 
 ```
-$ npm run build (build)
+$ npm run build
 $ npm run start (production)
 $ npm run dev (development)
 $ npm run test (test)
